@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    width: 100vh;
+}
+form{
+    padding: 10px;
+    margin: 5px;
+}
+input{
+    padding: 0px;
+    margin: 2px;
+}
+#to_Do{
+    padding: 3px;
+}
+#add{
+    color: green;
+    font-size: 30px;
+}
+#clear_Input{
+    color: red;
+    font-size: 30px;
+}
+#listCon{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    width: 100vh;
+}
+#listP{
+    width: 50vh;
+}
+.listCh{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border: 3px outset grey;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+    max-width: 100%;
+}
+#clear_Item, #done{
+    margin: 4px;
+    padding: 2px;
+    width: 100%;
+}
+#clear_Item{
+    background-color: red;
+    border-radius: 10px;
+}
+#done{
+    background-color: green;
+    border-radius: 10px;
+}
+.listCh, input{
+    max-width: 40%;
+}
